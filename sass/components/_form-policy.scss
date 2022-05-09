@@ -28,12 +28,12 @@
     border: 2px solid $title-text-color;
 
     .checkbox:checked + & {
-        background-color: $accent-color;
-        background-image: url(../../images/icon\ check.svg);
-        background-size: contain;
-        background-origin: border-box;
-        border-color: $accent-color;
-      }
+      background-color: $accent-color;
+      background-image: url(../images/icon\ check.svg);
+      background-size: contain;
+      background-origin: border-box;
+      border-color: var(--accent-color);
+    }
       .checkbox:focus + & {
         border-color: #2196f3;
       }
