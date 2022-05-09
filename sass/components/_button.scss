@@ -42,11 +42,13 @@
     border-radius: 4px;
   
     cursor: pointer;
+
+    &--icon {
+      margin-left: 10px;
+    }
   }
   
-  .footer__icon {
-    margin-left: 10px;
-  }
+
 
   .form__button--submit {
     display: flex;
